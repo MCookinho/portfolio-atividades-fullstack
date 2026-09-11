@@ -1,0 +1,49 @@
+.barra-ferramentas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.grupo-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filtro-btn {
+  background: var(--fundo);
+  border: 1px solid var(--borda);
+  color: var(--texto);
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.filtro-btn:hover {
+  background: var(--fundo-suave);
+}
+
+.filtro-btn.ativo {
+  background: var(--primaria);
+  border-color: var(--primaria);
+  color: #fff;
+}
+
+.busca {
+  flex: 1;
+  min-width: 180px;
+  max-width: 300px;
+  padding: 7px 10px;
+  border: 1px solid var(--borda);
+  border-radius: 4px;
+  font-size: 14px;
+  background: var(--fundo);
+  color: var(--texto);
+}
+
+.mensagem-vazia {
+  color: var(--texto-fraco);
+  padding: 24px 0;
+}

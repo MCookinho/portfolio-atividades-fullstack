@@ -1,0 +1,16 @@
+.sobre p {
+  color: var(--texto-suave);
+  max-width: 640px;
+}
+
+.sobre-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sobre-lista li {
+  color: var(--texto-suave);
+  margin-bottom: 4px;
+  font-size: 15px;
+}

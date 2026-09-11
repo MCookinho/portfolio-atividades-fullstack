@@ -1,0 +1,73 @@
+.modal-sobreposicao {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  z-index: 100;
+}
+
+.modal {
+  width: 100%;
+  max-width: 520px;
+  max-height: 85vh;
+  overflow-y: auto;
+  background: var(--fundo);
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.modal-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.modal-numero {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--primaria);
+}
+
+.modal-titulo {
+  font-size: 18px;
+  margin: 2px 0 0;
+}
+
+.modal-fechar {
+  border: 0;
+  background: none;
+  font-size: 22px;
+  line-height: 1;
+  color: var(--texto-fraco);
+}
+
+.modal-bloco {
+  margin-top: 12px;
+}
+
+.modal-bloco-titulo {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--texto-fraco);
+  margin-bottom: 2px;
+}
+
+.modal-bloco p {
+  color: var(--texto-suave);
+  font-size: 15px;
+}
+
+.modal-tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0;
+}

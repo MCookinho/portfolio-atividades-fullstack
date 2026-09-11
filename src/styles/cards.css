@@ -1,0 +1,111 @@
+.grade-atividades {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.card-atividade {
+  background: var(--fundo);
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.card-numero {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--primaria);
+}
+
+.card-titulo {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.card-descricao {
+  color: var(--texto-suave);
+  font-size: 15px;
+  flex: 1;
+}
+
+.card-tecnologias {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chip-tecnologia {
+  font-size: 12px;
+  background: var(--fundo-suave);
+  border: 1px solid var(--borda);
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: var(--texto-suave);
+}
+
+.card-rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--borda);
+  padding-top: 12px;
+}
+
+.status {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.status-concluida {
+  background: var(--sucesso-fundo);
+  color: var(--sucesso);
+}
+
+.status-em-andamento {
+  background: var(--em-andamento-fundo);
+  color: var(--em-andamento);
+}
+
+.status-planejada {
+  background: var(--planejada-fundo);
+  color: var(--planejada);
+}
+
+.botao-ver {
+  background: var(--primaria);
+  border: 0;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.botao-ver:hover {
+  background: var(--primaria-hover);
+}
+
+.botao-abrir {
+  font-size: 14px;
+}
+
+.legenda-status {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}

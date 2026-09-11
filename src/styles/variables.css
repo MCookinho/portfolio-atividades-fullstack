@@ -1,0 +1,41 @@
+:root {
+  --fundo: #ffffff;
+  --fundo-suave: #f2f4f7;
+  --texto: #111827;
+  --texto-suave: #4b5563;
+  --texto-fraco: #6b7280;
+  --borda: #d1d5db;
+
+  --primaria: #1f4fd8;
+  --primaria-hover: #163fad;
+  --primaria-fundo: #eaf0fe;
+
+  --sucesso: #157347;
+  --sucesso-fundo: #e7f6ee;
+  --em-andamento: #b45309;
+  --em-andamento-fundo: #fef3e2;
+  --planejada: #4b5563;
+  --planejada-fundo: #eef1f5;
+
+  --fonte: 'Segoe UI', system-ui, -apple-system, Arial, sans-serif;
+}
+
+[data-tema='escuro'] {
+  --fundo: #1a1d23;
+  --fundo-suave: #23272f;
+  --texto: #e5e7eb;
+  --texto-suave: #c3c9d4;
+  --texto-fraco: #9aa2b1;
+  --borda: #3a424f;
+
+  --primaria: #93a8f5;
+  --primaria-hover: #abbcf8;
+  --primaria-fundo: #2a3450;
+
+  --sucesso: #4ade80;
+  --sucesso-fundo: #17452b;
+  --em-andamento: #fbbf24;
+  --em-andamento-fundo: #4a3a10;
+  --planejada: #9aa2b1;
+  --planejada-fundo: #2c3340;
+}

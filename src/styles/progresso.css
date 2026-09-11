@@ -1,0 +1,24 @@
+.controle-progresso {
+  margin-bottom: 16px;
+}
+
+.contador-progresso {
+  font-size: 14px;
+  color: var(--texto-suave);
+  margin-bottom: 6px;
+}
+
+.barra-progresso {
+  height: 10px;
+  background: var(--fundo-suave);
+  border: 1px solid var(--borda);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.barra-preenchimento {
+  height: 100%;
+  width: 0%;
+  background: var(--primaria);
+  transition: width 0.3s;
+}
